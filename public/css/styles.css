@@ -1,0 +1,103 @@
+body {
+  background-color: #D3E0EA;
+  display: block;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.bodyDiv {
+  min-height: 80vh;
+}
+
+.navDiv {
+  background-color: #1687A7;
+  color: white;
+  margin-top: 0;
+}
+
+.blogTag {
+  display: inline-block;
+  padding-top: 0.3rem;
+  margin-top: 0.3rem;
+  margin-left: 1.6rem;
+}
+
+.navLinkDiv {
+  display: inline-block;
+  margin-top: 0.5rem;
+  position: absolute;
+  right: 5%;
+}
+
+.headerContent {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.headerContent:hover {
+  color: #DFE0DF;
+}
+
+.blogContainer {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.checkForm {
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  left: 10px;
+}
+
+.blogFormDiv {
+  display: inline-block;
+  width: 80%;
+}
+
+footer {
+  background-color: #1687A7;
+  bottom: 0;
+  color: white;
+  height: 2rem;
+  padding-top: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.footerText {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.composeForm {
+  background-color: #99dff2;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.blogBodyLabel {
+  position: relative;
+  bottom: 42px;
+}
+
+.inputClass {
+  margin-top: 10px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.submitButton {
+  margin-left: 45%;
+}
+
+.returnLink {
+  text-decoration: none;
+}

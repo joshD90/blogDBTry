@@ -1,0 +1,26 @@
+<%- include('header') -%>
+<div class="bodyDiv">
+  <h1 class="blogContainer">Joshua's Blog</h1>
+
+  <% blogList.forEach(function(element) { %>
+    <div class=blogContainer">
+      <form class="checkForm" action="/delete" method="post">
+        <input type="checkbox" name="checkbox" onchange="this.form.submit()" value="<%= element._id %>"></input>
+      </form>
+
+      <form class="blogContainer blogFormDiv" action="/seeMore" method="post">
+        <h3><%= element.name %></h3>
+        <p><%= element.body.slice(0,120) %>  ...</p>
+        <button type="submit" name="moreButton" value="<%= element._id %>">See More</button>
+      </form>
+
+    </div>
+  <% }) %>
+
+
+
+
+
+
+
+<%- include('footer') -%>

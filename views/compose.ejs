@@ -1,0 +1,26 @@
+<%- include('header') -%>
+<div class="bodyDiv">
+<h1>This is the compose page</h1>
+
+<form class="composeForm" action="/create" method="post">
+<div class="inputClass">
+  <label for="">Write Blog Title Here</label>
+  <input type="text" name="nameInput" value="">
+</div>
+<br>
+  <div class="inputClass">
+    <label for="bodyInput" class="blogBodyLabel">Write Blog Body Here</label>
+    <textarea name="bodyInput" value="" rows="6" cols="40"></textarea>
+  </div>
+
+  <br />
+
+  <br />
+  <button type="submit" name="submit" class="submitButton">Submit</button>
+</form>
+
+
+
+
+
+<%- include('footer') -%>
